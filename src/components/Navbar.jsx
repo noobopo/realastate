@@ -34,7 +34,7 @@ const Navbar = () => {
                 </div>
 
                 {/* mobile menu */}
-                <div className={`md:hidden ${mobile ? 'fixed w-[50%]' : 'h-0 w-0'}  right-0 top-0 bottom-0 overflow-hidden bg-white transition-all duration-300`}>
+                <div className={`md:hidden ${mobile ? 'fixed w-[35%]' : 'h-0 w-0'}  right-0 top-0 bottom-0 overflow-hidden bg-white transition-all duration-300`}>
                     <div className=' flex justify-end p-3'>
                         <img onClick={click} src={assets.cross_icon} alt="" className='w-5 cursor-pointer' />
                     </div>
